@@ -9,7 +9,8 @@ const Header = () => {
       </div>
 
       <div>
-        <ul>
+        <ul
+          className="flex justify-around items-center gap-8 text-xl hover:text-[ #FA4A0C] cursor-pointer">
           <li>Home</li>
           <li>Product</li>
           <li>Faq</li>
