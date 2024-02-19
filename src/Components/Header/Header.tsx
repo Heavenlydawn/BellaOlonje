@@ -10,11 +10,11 @@ const Header = () => {
 
       <div>
         <ul
-          className="flex justify-around items-center gap-8 text-xl hover:text-[ #FA4A0C] cursor-pointer">
-          <li>Home</li>
-          <li>Product</li>
-          <li>Faq</li>
-          <li>Contact</li>
+          className="flex justify-around items-center gap-8 text-xl font-medium">
+          <li className="hover:text-[#FA4A0C] cursor-pointer">Home</li>
+          <li className="hover:text-[#FA4A0C] cursor-pointer">Product</li>
+          <li className="hover:text-[#FA4A0C] cursor-pointer">Faq</li>
+          <li className="hover:text-[#FA4A0C] cursor-pointer">Contact</li>
         </ul>
       </div>
     </div>
