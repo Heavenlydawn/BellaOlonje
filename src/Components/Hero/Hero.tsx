@@ -22,7 +22,9 @@ const Hero = () => {
           </button>
         </div>
 
-        <Image src={HeroImage} alt="Belle Hero Image" />
+        <div className="-my-[150px]">
+          <Image src={HeroImage} alt="Belle Hero Image" />
+        </div>
       </div>
     </div>
   );
