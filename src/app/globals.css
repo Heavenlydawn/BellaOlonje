@@ -12,3 +12,7 @@ body {
   max-width: 1400px;
   margin: 0 auto;
 }
+
+#hero{
+    background: url(../../public/Images/HeroImage.png) no-repeat;
+}
