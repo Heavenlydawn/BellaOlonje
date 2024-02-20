@@ -16,7 +16,7 @@ const Header = () => {
         <Image src={Logo} alt="Logo" />
       </div>
 
-      <div className={`lg:hidden ${isNavOpen ? "block" : "hidden"}`}>
+      <div className={`lg:hidden ${isNavOpen ? "block" : "hidden"}  absolute top-0 right-0 h-screen w-2/3 bg-[#252525] z-50 transform transition-transform ease-in-out duration-300`}>
         <ul className="flex flex-col items-center gap-4 text-xl font-medium">
           <li className="hover:text-[#FA4A0C] cursor-pointer">Home</li>
           <li className="hover:text-[#FA4A0C] cursor-pointer">Product</li>
@@ -26,12 +26,12 @@ const Header = () => {
       </div>
 
       <div>
-       <ul className="lg:flex hidden items-center gap-8 text-xl font-medium">
-       <li className="hover:text-[#FA4A0C] cursor-pointer">Home</li>
-        <li className="hover:text-[#FA4A0C] cursor-pointer">Product</li>
-        <li className="hover:text-[#FA4A0C] cursor-pointer">Faq</li>
-        <li className="hover:text-[#FA4A0C] cursor-pointer">Contact</li>
-       </ul>
+        <ul className="lg:flex hidden items-center gap-8 text-xl font-medium">
+          <li className="hover:text-[#FA4A0C] cursor-pointer">Home</li>
+          <li className="hover:text-[#FA4A0C] cursor-pointer">Product</li>
+          <li className="hover:text-[#FA4A0C] cursor-pointer">Faq</li>
+          <li className="hover:text-[#FA4A0C] cursor-pointer">Contact</li>
+        </ul>
       </div>
 
       {/* Hamburger icon for mobile */}
