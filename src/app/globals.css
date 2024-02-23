@@ -16,3 +16,6 @@ body {
 #hero{
     background: url(../../public/Images/HeroImage.png) no-repeat;
 }
+#footer{
+    background: url(../../public/Images/FooterImage.png) no-repeat;
+}
