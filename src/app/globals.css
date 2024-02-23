@@ -13,9 +13,9 @@ body {
   margin: 0 auto;
 }
 
-#hero{
-    background: url(../../public/Images/HeroImage.png) no-repeat;
+#hero {
+  background: url(../../public/Images/HeroImage.png) no-repeat;
 }
-#footer{
-    background: url(../../public/Images/FooterImage.png) no-repeat;
+#footer {
+  background: url(../../public/Images/FooterImage.png) no-repeat;
 }
