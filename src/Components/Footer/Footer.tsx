@@ -1,11 +1,17 @@
 import React from "react";
+import Image from "next/image";
+import Logo from "../../../public/Images/Logo.png"
+import Twitter from "../../../public/Images/Twitter.png"
+import Facebook from "../../../public/Images/Facebook.png"
+import Instagram from "../../../public/Images/instagram.png"
 
 const Footer = () => {
   return (
-    <footer id="footer">
-      <div className="w-[860px] mx-auto text-white py-[100px]">
+    <footer>
+     <div id="footer">
+     <div className="w-[860px] mx-auto text-white py-[100px]">
         <div className="text-center">
-          <h3 className="text-3xl font-bold my-5">Download the app now.</h3>
+          <h3 className="text-5xl font-bold my-5">Download the app now.</h3>
           <p className="text-xl ">
             Available on your favorite store. Start your premium experience now
           </p>
@@ -20,6 +26,17 @@ const Footer = () => {
           </button>
         </div>
       </div>
+     </div>
+
+     <div>
+      <Image src={Logo} alt="Logo" />
+
+      <div>
+      <Image src={Twitter} alt="Twitter" />
+      <Image src={Facebook} alt="Facebook" />
+      <Image src={Instagram} alt="Instagram" />
+      </div>
+     </div>
     </footer>
   );
 };
