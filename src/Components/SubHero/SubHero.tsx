@@ -58,10 +58,10 @@ const SubHero = () => {
             Checkout
           </h3>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl text-[#252B42] font-bold my-3 sm:my-4 lg:my-5 leading-[45px] sm:leading-[50px] lg:leading-[60px]">
-            When you're done, check out and get it delivered.
+            When you are done, check out and get it delivered.
           </h2>
           <p className="text-xl sm:text-2xl lg:text-2xl text-[#737373] w-full sm:w-[400px] lg:w-[400px]">
-            When you're done, check out and get it delivered with ease.
+            When you are done, check out and get it delivered with ease.
           </p>
         </div>
       </div>
