@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import HeroImage from "../../../public/Images/HeroImage2.png";
-
+import ButtonHero from "../Buttons/ButtonHero";
 const Hero = () => {
   return (
     <div id="hero" className="text-[#F6F6F6] py-8 lg:py-16 xl:py-20">
@@ -16,14 +16,7 @@ const Hero = () => {
           Download the Bella Onojie’s food app now on
         </p>
 
-        <div className="flex flex-col sm:flex-row items-center gap-4 justify-center my-8 sm:my-12 lg:my-16">
-          <button className="py-3 sm:py-4 px-5 sm:px-6 text-xl sm:text-2xl font-semibold bg-[#FA4A0C] w-full sm:w-[236px] rounded-[20px]">
-            Playstore
-          </button>
-          <button className="py-3 sm:py-4 px-5 sm:px-6 text-xl sm:text-2xl font-semibold border-white border-2 w-full sm:w-[236px] rounded-[20px] mt-4 sm:mt-0">
-            App store
-          </button>
-        </div>
+       <ButtonHero />
 
         <div className="-my-8 sm:-my-12 lg:-my-[200px]">
           <Image src={HeroImage} alt="Bella Hero Image" />
