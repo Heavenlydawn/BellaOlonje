@@ -4,7 +4,7 @@ import Image from "next/image";
 import Logo from "../../../public/Images/Logo.png";
 
 const Header: React.FC = () => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(true);
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
@@ -52,6 +52,11 @@ const Header: React.FC = () => {
               )}
             </svg>
           </div>
+           {/* <div className="md:hidden cursor-pointer">
+            <button onClick={toggleMobileMenu} className="text-3xl px-4">
+              ☰
+            </button>
+          </div> */}
         </nav>
 
         {/* Mobile Menu */}
